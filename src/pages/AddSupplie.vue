@@ -50,7 +50,7 @@
             </button>
             </div>
         </div>
-        <div class="grid grid-cols-1 gap-4">
+        <div class="grid grid-cols-1 gap-4 overflow-x-auto">
             <table class="min-w-full bg-white shadow rounded-lg">
                 <thead class="bg-gray-100">
                 <tr>

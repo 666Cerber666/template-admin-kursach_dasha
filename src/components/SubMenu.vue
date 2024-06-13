@@ -1,6 +1,6 @@
 <template>
     <div>
-      <div :class="['h-screen', 'w-64', 'fixed', 'bg-gray-800', 'text-white', 'transition-transform', 'transform', sidebarOpen ? 'translate-x-0' : '-translate-x-full', 'lg:translate-x-0']">
+      <div :class="['h-screen', 'w-64', 'fixed', 'bg-gray-800', 'text-white', 'z-50', 'transition-transform', 'transform', sidebarOpen ? 'translate-x-0' : '-translate-x-full', 'lg:translate-x-0']">
         <div class="flex flex-col h-full">
           <div class="flex items-center justify-between px-6 py-4 border-b border-gray-700 lg:justify-center">
             <div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">

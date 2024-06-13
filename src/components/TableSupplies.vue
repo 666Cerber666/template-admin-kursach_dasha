@@ -38,8 +38,8 @@
         </div>
       </div>
   
-      <div class="overflow-x">
-        <table class="min-w-full bg-white overflow-x-hidden shadow rounded-lg">
+      <div class="overflow-x-auto">
+        <table class="w-full bg-white overflow-x-hidden shadow rounded-lg">
           <thead class="bg-gray-200">
             <tr>
               <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Штрих-код</th>

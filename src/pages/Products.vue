@@ -1,6 +1,6 @@
 <template>
   <Header class="block lg:hidden"/>
-  <div class="flex flex-row w-full mb-4 gap-4 h-4/5">
+  <div class="flex flex-row w-full mb-4 h-4/5">
       <SubMenu />
       <TableProducts class="mt-4"/>
   </div>

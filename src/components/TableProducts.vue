@@ -3,7 +3,7 @@
       <div class="flex items-center mb-4 space-x-4">
         <div class="flex flex-col items-start w-1/3">
           <label for="search" class="mb-1 text-xs">Поиск</label>
-          <div class="relative flex items-center w-full">
+          <div class="relative z-0 flex items-center w-full">
             <input
               id="search"
               v-model="searchQuery"
@@ -12,7 +12,7 @@
               class="border border-gray-300 p-2 pl-10 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 w-full"
             />
             <svg
-              class="w-5 h-5 text-gray-400 absolute left-3 pointer-events-none"
+              class="w-5 h-5 text-gray-400 z-0 absolute left-3 pointer-events-none"
               fill="none"
               stroke="currentColor"
               viewBox="0 0 24 24"
@@ -35,8 +35,8 @@
         </div>
       </div>
   
-      <div class="overflow-x">
-        <table class="min-w-full bg-white overflow-x-hidden shadow rounded-lg">
+      <div class="overflow-x-auto">
+        <table class="w-full bg-white p-4 relative shadow rounded-lg">
           <thead class="bg-gray-200">
             <tr>
               <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Товар и артикул</th>
